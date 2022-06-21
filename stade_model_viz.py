@@ -21,13 +21,13 @@ def agent_portrayal(agent):
 
 
 # ---- Parameters-----
-width = 20
-height = 5
+width = 50
+height = 15
 num_agents = width * height
 
 #----------------------
 
-grid = CanvasGrid(agent_portrayal, width, height, 500, 500)
+grid = CanvasGrid(agent_portrayal, width, height, width*10, height*10)
 server = ModularServer(
     StadeModel, [grid], "Stade Model", {"num_agents": num_agents, "width": width, "height": height}
 )
