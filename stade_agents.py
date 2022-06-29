@@ -9,6 +9,9 @@ class StadeAgent(Agent):
 
     def set_state(self, state):
         self.state = state
+
+    def get_state(self):
+        return self.state
     
     def step(self):
         #getting the agent's neighbors : 
