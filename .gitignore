@@ -1,5 +1,13 @@
 # Specify filepatterns you want git to ignore.
 
+# Ignore python cache
 __pycache__
+
+# Ignore mac file properties
 .DS_Store
-.idea
+
+# Ignore Pycharm conf
+.idea/
+
+# Ignore Vscode conf
+.vscode
