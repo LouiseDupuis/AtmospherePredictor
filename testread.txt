@@ -1,5 +1,5 @@
 5
 3
-N,N,N,N,N
+N,N,N,E,N
 N,S,N,S,S
 N,S,S,S,S
