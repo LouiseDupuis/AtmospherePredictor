@@ -17,6 +17,7 @@ class StadeAgent(Agent):
 
         states = [agent.state for agent in neighbors]
         #if states.count("S") >= len(self.model.grid.get_neighborhood(self.pos, True, False))//2:
+
         if states.count("S") >= 4:
             self.neighbors_are_shouting = True
         else :
